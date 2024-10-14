@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="weather.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <input type="text" id="locationInput" placeholder="Enter Location" >
+            <button onclick="getWeather()"><i class="fa-solid fa-magnifying-glass-arrow-right"></i></button>
+        </div>
+        <div class="weather">
+            <img class="weather-icon" src="https://png.pngtree.com/png-vector/20240913/ourmid/pngtree-weather-icon-png-image_12823345.png">
+            <h1 class="temp">23°C</h1>
+            <h2 class="location">Bhimavaram</h2>
+        </div>
+    </div>
+</body>
+</html>
